@@ -115,6 +115,6 @@ class PDFViewer:
 
 if __name__ == "__main__":
     root = ctk.CTk()
-    pdf_path = r"C:\Users\YAVUZHAN\Downloads\Mit Erfolg zum TestDaF B2-C1 Übungs- und Testbuch inklusive 2 Audio-CDs (Ksenija Fazlic-Walter Wolfgang Wegner) (Z-Library).pdf"
+    pdf_path = r"yourfile.pdf"
     viewer = PDFViewer(root, pdf_path)
     root.mainloop()
